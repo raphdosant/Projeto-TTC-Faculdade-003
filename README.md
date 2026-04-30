@@ -96,7 +96,7 @@ http://localhost/phpmyadmin
 Este projeto é apenas para fins de estudo.
 
 
-# COMANDOS COMPOSER E ARTISAN (LARAVEL)
+# 🎁 Comandos composer e artisan (Laravel)
 
 ## ======================== COMPOSER ========================
 
