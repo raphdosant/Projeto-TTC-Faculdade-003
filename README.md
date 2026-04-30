@@ -1,3 +1,9 @@
+# 🗂️ Descompactação (.zip)
+
+* Faça o download dos arquivos **ttc.z01** e **ttc.zip** e descompacte o `.zip` usando o WinRAR.
+* Isso foi feito porque o GitHub só aceita arquivos de até 25 MB, e o arquivo total tem 28 MB.
+
+
 # 📌 Projeto Laravel com XAMPP
 
 Este projeto foi desenvolvido utilizando o framework **Laravel**, com gerenciamento de dependências via **Composer** e ambiente local configurado com **XAMPP**.
