@@ -1,0 +1,46 @@
+COMANDOS COMPOSER E ARTISAN (LARAVEL)
+
+======================== COMPOSER ========================
+
+Criar projeto: composer create-project laravel/laravel nome-do-projeto
+
+Instalar dependências: composer install
+
+Atualizar dependências: composer update
+
+Instalar pacote: composer require nome/pacote
+
+Remover pacote: composer remove nome/pacote
+
+======================== ARTISAN ========================
+
+Criar Model: php artisan make:model NomeModel
+
+Model + Migration: php artisan make:model NomeModel -m
+
+Model completo: php artisan make:model NomeModel -mfsc
+
+Criar Controller: php artisan make:controller NomeController
+
+Controller com CRUD: php artisan make:controller NomeController
+–resource
+
+Criar Migration: php artisan make:migration create_nome_tabela
+
+Rodar migrations: php artisan migrate
+
+Resetar banco: php artisan migrate:fresh
+
+Seeder: php artisan make:seeder NomeSeeder php artisan db:seed
+
+Factory: php artisan make:factory NomeFactory
+
+Listar rotas: php artisan route:list
+
+Instalar autenticação: composer require laravel/breeze –dev php artisan
+breeze:install php artisan migrate
+
+Limpar cache: php artisan cache:clear php artisan config:clear php
+artisan route:clear php artisan view:clear
+
+Rodar servidor: php artisan serve
